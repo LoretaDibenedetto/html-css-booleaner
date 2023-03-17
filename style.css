@@ -1,9 +1,16 @@
 
-    
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header==========*/    
 
 .bg-color-blue{
-    background-color: lightblue;
-    height:130px;
+    background-image: url(./img/pattern.png);
+    background-color: #bce7ff;
+    background-position: center;
+
+    height:140px;
 }
 
 .logo{
@@ -12,6 +19,8 @@
     margin-top:30px ;
 }
 
+
+/*main-title==========*/
 
 .title h1 {
     font-size: 30px;
@@ -31,6 +40,7 @@
     color:aqua;
 }
 
+/*main-image==========*/
 .image-content img{
    
     margin: 0px 0px 0px 0px;
@@ -41,6 +51,7 @@
     font-size: 12px;
 }
 
+/*main-content==========*/
 .main-content{
    
     font-weight: 500;
@@ -50,6 +61,7 @@
 
 
 
+/*table==========*/
 
 table{
     
@@ -73,7 +85,9 @@ table td{
     background-color: white;
 }
 
+/*footer==========*/
 footer{
+    margin-top: 60px;
     background:#171764;
     color:white;
     text-align: center;
