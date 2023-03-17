@@ -1,4 +1,10 @@
-
+/*
+    ci avrei aggiunto queste regole 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
 
 .bg-color-blue{
     background-color: lightblue;
@@ -9,5 +15,18 @@
     width: 200px;
     padding: 10px;
     margin-top:30px ;
+}
+
+.title h1 {
+    font-size: 30px;
+}
+
+.title p{
+   color:#bdbbbb;
+}
+
+.title a{
+    text-decoration: none;
+    color:aqua;
 }
 
